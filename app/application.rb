@@ -14,7 +14,7 @@ class Application
         resp.write "Item not found"
       end
     else
-      resp.status = 400
+      resp.status = 404
       resp.write "Item not found"
     end
   end
